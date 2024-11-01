@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(197, 197, 91, 0.664);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(121, 29, 29);
+}
+
+p {
+    color: rgb(159, 49, 49);
+    font-size: 18px;
+}
+
+
+li {
+    color: rgb(92, 84, 90);
+}
+
+.footer{
+    text-align: center;
+    font-size: 14px;
+}
