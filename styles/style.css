@@ -1,6 +1,22 @@
+/* Border Box Code */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
 body {
     background-color: rgba(197, 197, 91, 0.664);
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 12px;
+}
+
+h1 {
+    text-align: center;
 }
 
 h1,
@@ -22,4 +38,22 @@ li {
 .footer{
     text-align: center;
     font-size: 14px;
+}
+
+.recipe-links {
+    padding-left: 30px;
+}
+
+.recipe-links li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.recipe-links li a{
+    background-color: rgb(159, 49, 49);
+    display: block;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(197, 197, 91, 0.664);
 }
