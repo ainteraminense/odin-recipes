@@ -15,14 +15,12 @@ body {
     margin: 12px;
 }
 
-h1 {
-    text-align: center;
-}
-
 h1,
 h2,
 h3 {
     color: rgb(121, 29, 29);
+    text-align: center;
+
 }
 
 p {
@@ -35,13 +33,19 @@ li {
     color: rgb(92, 84, 90);
 }
 
+img {
+    display: block;
+    margin:  0 auto;
+}
+
 .footer{
     text-align: center;
     font-size: 14px;
 }
 
-.recipe-links {
-    padding-left: 30px;
+.recipe-links,
+p {
+    padding: 0 30px;
 }
 
 .recipe-links li {
